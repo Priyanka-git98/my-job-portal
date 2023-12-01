@@ -1,5 +1,3 @@
-// Header.js
-import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
@@ -12,16 +10,22 @@ const Header = () => {
         <Typography variant="h6" component="div">
           <Link href="/" legacyBehavior>
             <a style={{ color: 'black', textDecoration: 'none' }}>
-             Hirect
+              Hirect
             </a>
           </Link>
         </Typography>
         <div style={{ marginLeft: 'auto' }}>
-          <Link href="/findjobs" legacyBehavior>
-            <a style={{ color: 'black', marginLeft: 20, textDecoration:"none" }}>Find Jobs</a>
+          {/* <Link href="/findjobs" legacyBehavior>
+            <a style={{ color: 'black', marginLeft: 20, textDecoration: "none" }}>Find Jobs</a>
+          </Link> */}
+          <Link href="/recruiterRegister/signup" legacyBehavior>
+            <a style={{ color: 'black', marginLeft: 20, textDecoration: "none" }}>Employers</a>
           </Link>
-          <Link href="/postjobs" legacyBehavior>
-            <a style={{ color: 'black', marginLeft: 20, textDecoration:"none"}}>Employers/Post Job</a>
+          <Link href="/register/signup" legacyBehavior>
+            <a style={{ color: 'black', marginLeft: 20, textDecoration: "none" }}>Register</a>
+          </Link>
+          <Link href="/register/login" legacyBehavior>
+            <a style={{ color: 'black', marginLeft: 20, textDecoration: "none" }}>Login</a>
           </Link>
         </div>
       </Toolbar>
