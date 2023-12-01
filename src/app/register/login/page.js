@@ -1,9 +1,9 @@
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import Link from 'next/link';
-import { Field, reduxForm } from 'redux-form';
 
 const Page = () => {
     return (
@@ -12,7 +12,7 @@ const Page = () => {
 
             <Grid container spacing={4}>
                 <Grid item xs={10}>
-                    <Field
+                    <TextField
                         id="outlined-basic"
                         label="Your email"
                         variant="outlined"
@@ -22,7 +22,7 @@ const Page = () => {
                 </Grid>
 
                 <Grid item xs={10}>
-                    <Field
+                    <TextField
                         id="outlined-basic"
                         label="Your password"
                         variant="outlined"
@@ -37,7 +37,7 @@ const Page = () => {
                 </Grid>
             </Grid>
             <Typography>
-                Don't have an account?<Link href="/register/signup" legacyBehavior>
+                Don't have an account?<Link href="/register/" legacyBehavior>
                     Sign up here
                 </Link>
             </Typography>
@@ -46,6 +46,4 @@ const Page = () => {
     )
 }
 
-export default reduxForm({
-    form: 'loginForm'
-})(Page);
+export default Page;

@@ -59,7 +59,7 @@ const PostJob = () => {
                     margin="normal"
                 />
                 <Button variant="contained" style={{ backgroundColor: '#2CE2A2', color: "black" }}>
-                    Find Jobs
+                    Post Jobs
                 </Button>
             </Container>
         </>
