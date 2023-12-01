@@ -33,7 +33,25 @@ const Page = () => {
                 <Grid item xs={10}>
                     <TextField
                         id="outlined-basic"
+                        label="Your mobile number"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                    />
+                </Grid>
+                <Grid item xs={10}>
+                    <TextField
+                        id="outlined-basic"
                         label="Your password"
+                        variant="outlined"
+                        fullWidth
+                        margin="normal"
+                    />
+                </Grid>
+                <Grid item xs={10}>
+                    <TextField
+                        id="outlined-basic"
+                        label="Upload your resume here"
                         variant="outlined"
                         fullWidth
                         margin="normal"
