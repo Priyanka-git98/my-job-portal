@@ -11,6 +11,8 @@ const Header = () => {
           <Link href="/" legacyBehavior>
             <a style={{ color: 'black', textDecoration: 'none' }}>
               Hirect
+
+              
             </a>
           </Link>
         </Typography>

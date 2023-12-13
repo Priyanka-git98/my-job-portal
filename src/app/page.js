@@ -1,13 +1,13 @@
 import Header from "./components/Header";
-import Image from "next/image";
-import Profile from '../../public/recruiter.jpg.jpg';
-import styles from './globals.css';
+// import Image from "next/image";
+// import Profile from '../../public/recruiter.jpg.jpg';
+// import styles from './globals.css';
 
 export default function Home() {
   return (
     <main>
       <Header />
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <div className={styles.imageContainer}>
           <Image
             src={Profile}  
@@ -24,7 +24,7 @@ export default function Home() {
             <li>Find a job and grow your career</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
